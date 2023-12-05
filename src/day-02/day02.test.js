@@ -1,5 +1,5 @@
 
-import { part1 } from './day02'
+import { part1, part2 } from './day02'
 
 const testInput = `Game 1: 3 blue, 4 red; 1 red, 2 green, 6 blue; 2 green
 Game 2: 1 blue, 2 green; 3 green, 4 blue, 1 red; 1 green, 1 blue
@@ -11,6 +11,10 @@ describe('day02', () => {
 
   it('part1', () => {
     expect(part1(testInput)).toBe(8)
+  })
+
+  it('part2', () => {
+    expect(part2(testInput)).toBe(2286)
   })
 
 })
