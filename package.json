@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "day-01": "babel-node src/day-01/index.js",
+    "day-02": "babel-node src/day-02/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
